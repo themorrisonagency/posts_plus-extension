@@ -1,0 +1,36 @@
+{
+    "name": "morrison/posts_plus-extension",
+    "type": "streams-addon",
+    "description": "An extension to the Posts Module",
+    "keywords": [
+        "streams field type",
+        "streams addon",
+        "extension",
+        "pyrocms",
+        "pyro cms"
+    ],
+    "homepage": "http://pyrocms.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morrison",
+            "email": "admin@morrisonagency.com",
+            "homepage": "https://morrison.agency/",
+            "role": "Owner"
+        },
+        {
+            "name": "Lachlan Heywood",
+            "email": "support@hellotimber.com",
+            "homepage": "https://hellotimber.com/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "admin@morrisonagency.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morrison\\PostsPlusExtension\\": "src/"
+        }
+    }
+}
